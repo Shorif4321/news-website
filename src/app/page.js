@@ -1,4 +1,5 @@
 import LatestNews from '@/components/ui/LatestNews/LatestNews';
+import Sidebar from '@/components/ui/Sidebar/Sidebar';
 import React from 'react';
 
 const HomePage = () => {
@@ -7,7 +8,9 @@ const HomePage = () => {
       <div className='w-1/1 md:w-2/3'>
         <LatestNews></LatestNews>
       </div>
-      <div className='w-1/1 md:w-1/3 bg-green-400'><h1>Home right side</h1></div>
+      <div className='w-1/1 md:w-1/3'>
+        <Sidebar></Sidebar>
+      </div>
     </div>
   );
 };
